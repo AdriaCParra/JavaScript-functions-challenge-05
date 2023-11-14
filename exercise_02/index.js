@@ -1,0 +1,1 @@
+//import 'getTotalWordsFromString' and execute

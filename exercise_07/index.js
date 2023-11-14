@@ -1,0 +1,1 @@
+//import isTypeOf' and execute
