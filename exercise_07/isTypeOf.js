@@ -6,3 +6,15 @@
  * input: boolean (type)
  * output:
  */
+
+/**
+ *
+ * @param {*} value
+ * @param {boolean} type
+ * @returns
+ */
+function isTypeOf(value, type) {
+  return typeof value === type;
+}
+
+export default isTypeOf;
