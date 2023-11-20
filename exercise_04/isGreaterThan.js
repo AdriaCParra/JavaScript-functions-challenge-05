@@ -9,7 +9,7 @@
  *
  * @param {number} value
  * @param {number} threshold
- * @returns
+ * @returns {boolean}
  */
 const isGreaterThan = (value, threshold) => {
   return value > threshold;

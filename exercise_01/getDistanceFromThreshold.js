@@ -9,7 +9,7 @@
  *
  * @param {number} value
  * @param {number} threshold
- * @returns
+ * @returns {number}
  */
 const getDistanceFromThreshold = (value, threshold) => {
   return value - threshold;

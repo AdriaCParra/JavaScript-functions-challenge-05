@@ -7,7 +7,7 @@
 /**
  *
  * @param {number} limit
- * @returns
+ * @returns {number}
  */
 const generateRandomNumberInRange = (limit) => {
   return Math.floor(Math.random() * limit);

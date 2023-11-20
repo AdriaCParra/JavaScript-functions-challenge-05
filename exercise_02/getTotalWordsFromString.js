@@ -7,7 +7,7 @@
 /**
  *
  * @param {string} sentence
- * @returns
+ * @returns {number}
  */
 const getTotalWordsFromString = (sentence) => {
   return sentence.split(" ").length;
