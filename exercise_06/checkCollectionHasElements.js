@@ -5,8 +5,8 @@
  */
 
 /**
- * 
- * @param {Array} collection 
+ *
+ * @param {Array} collection
  * @returns {boolean}
  */
 const checkCollectionHasElements = (collection) => {

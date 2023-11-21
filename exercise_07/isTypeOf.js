@@ -14,6 +14,8 @@
  * @returns
  */
 function isTypeOf(value, type) {
+  if (type === "array") return Array.isArray(value);
+
   return typeof value === type;
 }
 
