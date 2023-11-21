@@ -3,3 +3,14 @@
  * input: array (collection)
  * output: boolean
  */
+
+/**
+ *
+ * @param {Array} collection
+ * @returns {boolean}
+ */
+const checkCollectionHasElements = (collection) => {
+  return collection.length > 0;
+};
+
+export default checkCollectionHasElements;

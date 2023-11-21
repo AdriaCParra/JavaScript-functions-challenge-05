@@ -3,3 +3,14 @@
  * input: string (sentence)
  * output: number
  */
+
+/**
+ *
+ * @param {string} sentence
+ * @returns {number}
+ */
+const getTotalWordsFromString = (sentence) => {
+  return sentence.split(" ").length;
+};
+
+export default getTotalWordsFromString;
