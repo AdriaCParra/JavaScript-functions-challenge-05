@@ -30,9 +30,8 @@ import getDistanceFromThreshold from "../exercise_01/getDistanceFromThreshold.js
 const getDistanceMessageFromSumTo100 = (value) => {
   const random = generateRandomNumberInRange(100);
   const sum = value + random;
-  const distance = getDistanceFromThreshold(100, sum);
-  const message = `Sum with value ${sum} is ${distance} from number 100`;
-  return message;
+  const distance = Math.abs(getDistanceFromThreshold(100, sum));
+  return `Sum with value ${sum} is ${distance} from number 100`;
 };
 
 export default getDistanceMessageFromSumTo100;
